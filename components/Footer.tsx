@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 | Zohotech - Rey Mar Gualvez</Copyright>
+          <Copyright>&copy; Copyright 2021  Zohotech | Rey Mar Gualvez</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

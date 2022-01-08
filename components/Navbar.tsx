@@ -69,7 +69,7 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            {/* <Logo /> */}<h1>Zohotech - Rey Mar Gualvez</h1>
+            {/* <Logo /> */}<h1>Zohotech | Rey Mar Gualvez</h1>
           </LogoWrapper>
         </NextLink>
         <NavItemList>
