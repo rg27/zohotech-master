@@ -7,24 +7,26 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  'Zoho CRM',
+  'Zoho People',
+  'Zoho Forms',
+  'Zoho Sign',
+  'Zoho Sites',
+  'Zoho Projects',
+  'Zoho Meetings',
+  'Zoho Campaigns',
+  'Zoho Creator'
 ];
 
 export default function Partners() {
   return (
     <PartnersWrapper>
       {/* <Title>official partners with</Title> */}
-      <Title>CERTIFICATIONS</Title>
+      <Title>Zoho Products</Title>
       <Swiper
         modules={[Autoplay]}
-        slidesPerView={6}
-        spaceBetween={30}
+        slidesPerView={10}
+        spaceBetween={5}
         loop={true}
         autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
         speed={3000}
@@ -37,7 +39,8 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            {/* <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} /> */}
+            {logo}
           </SwiperSlide>
         ))}
       </Swiper>
