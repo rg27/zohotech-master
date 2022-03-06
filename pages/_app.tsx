@@ -19,7 +19,7 @@ import { NavItems } from 'types';
 const navItems: NavItems = [
   { title: 'Home', href: '/' },
   { title: 'Services', href: '/services' },
- { title: 'Blog', href: '/blog' },
+//  { title: 'Blog', href: '/blog' },
   { title: 'Contact', href: '/contact' }
  // { title: 'Sign up', href: '/sign-up', outlined: true },
 ];

@@ -29,7 +29,7 @@ const footerItems: FooterItems = [
   {
     title: 'Knowledge',
     items: [
-      { title: 'Blog', href: '/blog' },
+      // { title: 'Blog', href: '/blog' },
       { title: 'Contact', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
       { title: 'Help Center', href: '/help-center' },
@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2  Zohotech | Rey Mar Gualvez</Copyright>
+          <Copyright>&copy; Copyright 2022 Zohotech | Rey Mar Gualvez</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
